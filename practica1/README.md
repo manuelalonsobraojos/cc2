@@ -36,7 +36,7 @@ Una vez creado el archivo docker-compose.yml, levantamos los servicios ejecutand
  ```
  Como se puede ver en el comando anterior, se le especifica la creación de dos servicios de owncloud.
  
- Una vez desplegado los servicios, es necesario la habilitación de ldap en nuestro servicio de owncloud. Para ello se ha creado un script el cual podemos ver en el siguiente enlace, [init_ldap.sh]().
+ Una vez desplegado los servicios, es necesario la habilitación de ldap en nuestro servicio de owncloud. Para ello se ha creado un script el cual podemos ver en el siguiente enlace, [init_ldap.sh](https://github.com/manuelalonsobraojos/cc2/blob/master/practica1/owncloud-docker-server/init_ldap.sh).
  
  Una vez habilitado se procede a configurar un usuario en ldap, para ello es necesario ejecutar el siguiente comando:
  ```
